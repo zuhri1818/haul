@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-arabic: 'Amiri', serif;
+    --font-heading: 'Cinzel', serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #061510;
+    color: #f1f5f3;
+    overflow-x: hidden;
+  }
+}
+
+.font-arabic {
+  font-family: 'Amiri', serif;
+  line-height: 2.2;
+}
+
+.font-heading {
+  font-family: 'Cinzel', serif;
+}
+
+/* Islamic pattern background overlay */
+.bg-islamic-pattern {
+  background-color: #061510;
+  background-image: 
+    radial-gradient(circle at 50% 50%, rgba(20, 83, 45, 0.25) 0%, transparent 60%),
+    radial-gradient(rgba(217, 180, 74, 0.08) 1px, transparent 1px);
+  background-size: 100% 100%, 24px 24px;
+}
+
+.bg-islamic-stars {
+  background-image: radial-gradient(rgba(217, 180, 74, 0.15) 1.5px, transparent 1.5px);
+  background-size: 32px 32px;
+}
+
+/* Gold text gradient */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #fef08a 0%, #eab308 50%, #ca8a04 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-silver-gradient {
+  background: linear-gradient(135deg, #f8fafc 0%, #cbd5e1 50%, #94a3b8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Emerald border glow */
+.gold-glow {
+  box-shadow: 0 0 25px -5px rgba(234, 179, 8, 0.25);
+}
+
+.emerald-glow {
+  box-shadow: 0 0 30px -5px rgba(16, 185, 129, 0.2);
+}
+
+/* Custom smooth scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #061510;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e3a2f;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2d5a49;
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Haul Akbar Desa Bangeran Lebak",
+  "description": "Portal Haul Akbar Desa Bangeran Lebak — merawat tradisi, mempererat silaturahmi, mengenang jasa para leluhur dengan panduan tahlil, titip doa arwah, dan dialog suara santri interaktif.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
